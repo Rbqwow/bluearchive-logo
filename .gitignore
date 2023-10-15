@@ -28,3 +28,6 @@ public/fonts/*/*
 public/*.*
 !public/fonts/RoGSans/font.css
 !public/common.css
+
+package-lock.json
+pnpm-lock.yaml
