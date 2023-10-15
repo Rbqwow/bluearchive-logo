@@ -6,9 +6,14 @@
   font-display: swap;
   unicode-range: U+0-4DFF, U+A000-10FFFF;
 }
+
 @font-face {
   font-family: RoGSanSrfStd-Bd;
-  src: url('./RoGSanSrfStd-Bd_CJK.woff2') format('woff2');
+
+  /* Due to limitation of license of fonts usage, 
+  gonna use the exist font asset from tmp.nulla.top. */
+  
+  src: url('https://tmp.nulla.top/ba-logo/fonts/RoGSans/RoGSanSrfStd-Bd_CJK.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

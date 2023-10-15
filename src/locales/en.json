@@ -10,5 +10,10 @@
   "main-font": "Main font: ",
   "fallback-font": "Fallback font: ",
   "glow": "Wêlai Glow Sans",
-  "github-repo": "GitHub repo"
+  "github-repo": "GitHub repo",
+  "second-line": "Second line",
+  "second-line-clip-switch": "Restrict the second line draw area",
+  "second-line-fonts": "Fonts",
+  "debug-switch": "Switch the debug mode",
+  "glow-effect": "Glow effect"
 }

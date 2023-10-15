@@ -27,3 +27,4 @@ dist-ssr
 public/fonts/*/*
 public/*.*
 !public/fonts/RoGSans/font.css
+!public/common.css

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="common.css" />
   <link rel="stylesheet" type="text/css" href="fonts/RoGSans/font.css" />
   <link rel="stylesheet" type="text/css" href="fonts/GlowSans/font.css" />
   <title>Blue Archive Logo Generater</title>
@@ -14,12 +15,20 @@
     <h1 class="i18n mt-24 mb-20 text-center font-bold" data-i18n="title">BlueArchive-Style Logo Generater</h1>
   </header>
   <section class="canvas-wrapper flex place-content-center">
-    <div class="relative">
+    <div class="relative checkerboard">
       <canvas id="canvas" height="250" width="900"></canvas>
       <div id='loading' class="absolute w-full h-full top-0 left-0 backdrop-blur-sm bg-slate-400/5 z-50 hidden">
         <div class="flex place-content-center h-full">
           <span class="loading loading-spinner loading-lg mx-auto"></span>
         </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="errorbox" class="flex place-content-center mt-8">
+    <div class="errorbox relative p-4">
+      <div id="errorbox-text">
+        Error
       </div>
     </div>
   </section>
@@ -49,6 +58,43 @@
             <span class="flex-1"><span class="mr-2">Y</span><input type="number" placeholder="Type here" value="0"
                 class="input input-bordered input-sm input-primary w-32" id="graphY" /></span>
           </div>
+
+          <label class="cursor-pointer label justify-start">
+            <input type="checkbox" class="toggle toggle-primary" id="gloweffect" />
+            <span class="i18n label-text text-base ml-4 mr-16" data-i18n="glow-effect"></span>
+          </label>
+
+          <label class="cursor-pointer label justify-start">
+            <input type="checkbox" class="toggle toggle-primary" id="secondline" />
+            <span class="i18n label-text text-base ml-4 mr-16" data-i18n="second-line">Is enabled</span>
+          </label>
+  
+          <label class="cursor-pointer label justify-start">
+            <input type="checkbox" class="toggle toggle-primary" id="secondlineclip" />
+            <span class="i18n label-text text-base ml-4 mr-16" data-i18n="second-line-clip-switch">Clip area</span>
+          </label>
+  
+          <label class="cursor-pointer label justify-start">
+            <span class="i18n label-text text-base" data-i18n="second-line-fonts">Fonts</span>
+            <input id="text2Fonts" type="text" placeholder="Fonts" value="RoGSanSrfStd-Bd, GlowSansSC-Normal-Heavy_diff, apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+            class="input input-bordered input-md input-secondary ml-4" />
+          </label>
+  
+            
+          <input id="textS" type="text" placeholder="Second line text" value="second"
+            class="input input-bordered input-md input-secondary " />
+          <div class="flex justify-evenly my-4">
+            <span class="flex-1"><span class="mr-2">X</span><input type="number" placeholder="Type here" value="100"
+                class="input input-bordered input-sm input-primary w-32 mr-2" id="text2X" /></span>
+            <span class="flex-1"><span class="mr-2">Y</span><input type="number" placeholder="Type here" value="32"
+                class="input input-bordered input-sm input-primary w-32" id="text2Y" /></span>
+          </div>
+
+          <div>Debug</div>
+          <label class="cursor-pointer label justify-start">
+            <input type="checkbox" class="toggle toggle-primary" id="debugswitch" />
+            <span class="i18n label-text text-base ml-4 mr-16" data-i18n="debug-switch"></span>
+          </label>
         </div>
       </div>
     </div>
