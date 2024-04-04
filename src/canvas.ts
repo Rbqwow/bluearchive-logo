@@ -33,8 +33,8 @@ export default class LogoCanvas {
   private graphOffset = graphOffset;
   private transparentBg = false;
 
-  private secondLineEnabled = true;
-  private secondLineClip = true;
+  private secondLineEnabled = false;
+  private secondLineClip = false;
 
   private glowEnabled = false;
 
