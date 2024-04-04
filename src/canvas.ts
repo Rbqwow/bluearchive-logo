@@ -18,9 +18,9 @@ const font = `${fontSize}px RoGSanSrfStd-Bd, GlowSansSC-Normal-Heavy_diff, apple
 export default class LogoCanvas {
   public canvas: HTMLCanvasElement;
   private ctx: CanvasRenderingContext2D;
-  public textL = 'Blue';
-  public textR = 'Archive';
-  public textS = 'second';
+  public textL = 'ブルー';
+  public textR = 'アーカイブ';
+  public textS = 'BlueArchive';
   public text2Fonts = 'RoGSanSrfStd-Bd, GlowSansSC-Normal-Heavy_diff, apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif';
   private textMetricsL: TextMetrics | null = null;
   private textMetricsR: TextMetrics | null = null;
