@@ -11,9 +11,9 @@
   "fallback-font": "Fallback 字体：",
   "glow": "未来荧黑",
   "github-repo": "GitHub 仓库",
-  "second-line": "第二列",
-  "second-line-clip-switch": "限制第二列著色區域",
-  "second-line-fonts": "第二列字形",
-  "debug-switch": "除錯模式",
-  "glow-effect": "發光效果"
+  "second-line": "第二行",
+  "second-line-clip-switch": "限制第二行着色区域",
+  "second-line-fonts": "第二行字体",
+  "debug-switch": "Debug 模式",
+  "glow-effect": "发光效果"
 }
