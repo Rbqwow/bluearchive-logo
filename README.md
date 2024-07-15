@@ -1,14 +1,24 @@
-# BlueArchive-style Logo Generater
+# BlueArchive-style Logo Generator
 
-A logo generater using canvas & Vanilla js.
+A logo generator using canvas & Vanilla js.
 
-# Mods:
-> The mods is based on [Menci/bluearchive-logo.](https://github.com/Menci/bluearchive-logo)
-+ Second line
-+ Glow effect
+## Mods
+
+- Second line
+- Glow effect
 
 ## Used Fonts
 
-[RoG2サンセリフStd B](https://www.morisawa.co.jp/fonts/specimen/1646) (Made some modifications.)
+- [RoG2サンセリフStd B](https://www.morisawa.co.jp/fonts/specimen/1646) (Modded)
+- [Wêlai Glow Sans Heavy](https://github.com/welai/glow-sans)
 
-[Wêlai Glow Sans Heavy](https://github.com/welai/glow-sans)
+## Todo
+
+- Support Hangul
+- Slice font
+
+## Credits
+
+- [nulla2011](https://github.com/nulla2011/bluearchive-logo)
+- [Menci](https://github.com/Menci/bluearchive-logo)
+- [appleneko2001](https://github.com/appleneko2001/bluearchive-logo)
